@@ -12,7 +12,6 @@ except ImportError:
     from setuptools import setup
 
 install_requires = [
-    'Django',
 ]
 
 tests_require = [
@@ -21,6 +20,7 @@ tests_require = [
     'whoosh==2.5.4',
     'python-dateutil',
     'geopy==0.95.1',
+    'Django==1.6.7',
 
     'nose',
     'mock',
